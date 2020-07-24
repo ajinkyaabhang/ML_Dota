@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Predict your chances of winning DOTA</h1>
+
+    <div class="form">
+        <form style="text-align: center" action="/predict_new" method="POST">
+		<style>
+				body {
+  						background-color: #91d4ba;
+					}
+			</style>
+			<label for="C13">C13</label>
+				<select id="C13" name="C13">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="H18">H18</label>
+				<select id="H18" name="H18">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="F46">F46</label>
+				<select id="F46" name="F46">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="F56">F56</label>
+				<select id="F56" name="F56">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="G57">G57</label>
+				<select id="G57" name="G57">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="I59">I59</label>
+				<select id="I59" name="I59">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="A71">A71</label>
+				<select id="A71" name="A71">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="F76">F76</label>
+				<select id="F76" name="F76">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="A91">A91</label>
+				<select id="A91" name="A91">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+			<label for="E115">E115</label>
+				<select id="E115" name="E115">
+					<option value="1">Team-A: Hero Selected(1)</option>
+					<option value="-1">Team-B: Hero Selected(-1)</option>
+					<option value="0">No Hero Selected(0)</option>
+				</select><br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+
+<div class="content">
+    <h1 style="text-align: center">Winning Prediction of DOTA from CSV File</h1>
+		<div class="form">
+			<form style="text-align: center" action="/predict" method="POST">
+				<label for="Default_File_Predict">Default File Predict</label>
+					<select id="Default_File_Predict" name="Default_File_Predict">
+						<option value="Prediction_Batch_files">Prediction_Batch_files</option>
+					</select>
+				<input type="submit" value="Predict">
+			</form>
+    </div>
+</div>
+
+{% endblock %}

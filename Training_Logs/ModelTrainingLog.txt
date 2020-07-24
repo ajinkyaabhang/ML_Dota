@@ -1,0 +1,48 @@
+2020-06-12/20:02:03		Start of Training
+2020-06-12/20:02:03		Entered the get_data method of the Data_Getter class
+2020-06-12/20:02:06		Data Load Successful.Exited the get_data method of the Data_Getter class
+2020-06-12/20:02:06		Entered the separate_label_feature method of the Preprocessor class
+2020-06-12/20:02:06		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2020-06-12/20:02:06		Entered the elbow_plot method of the KMeansClustering class
+2020-06-12/20:02:25		The optimum number of clusters is: 4 . Exited the elbow_plot method of the KMeansClustering class
+2020-06-12/20:02:25		Entered the create_clusters method of the KMeansClustering class
+2020-06-12/20:02:26		Entered the save_model method of the File_Operation class
+2020-06-12/20:02:26		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2020-06-12/20:02:26		succesfully created 4clusters. Exited the create_clusters method of the KMeansClustering class
+2020-06-12/20:02:26		Entered the get_best_model method of the Model_Finder class
+2020-06-12/20:02:26		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:02:43		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:02:43		AUC for RF:0.5
+2020-06-12/20:02:43		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:05:21		SVM best params: {'C': 0.1, 'gamma': 0.5, 'kernel': 'rbf'}. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:05:24		AUC for SVM:0.5
+2020-06-12/20:05:24		Entered the save_model method of the File_Operation class
+2020-06-12/20:05:24		Model File RandomForest0 saved. Exited the save_model method of the Model_Finder class
+2020-06-12/20:05:24		Entered the get_best_model method of the Model_Finder class
+2020-06-12/20:05:24		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:05:47		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:05:47		AUC for RF:0.5000747384155456
+2020-06-12/20:05:47		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:19:31		SVM best params: {'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:19:46		AUC for SVM:0.5034591023678624
+2020-06-12/20:19:46		Entered the save_model method of the File_Operation class
+2020-06-12/20:19:46		Model File SVM1 saved. Exited the save_model method of the Model_Finder class
+2020-06-12/20:19:46		Entered the get_best_model method of the Model_Finder class
+2020-06-12/20:19:46		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:19:59		Random Forest best params: {'criterion': 'gini', 'max_depth': 2, 'max_features': 'auto', 'n_estimators': 100}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:19:59		AUC for RF:0.5
+2020-06-12/20:19:59		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:23:34		SVM best params: {'C': 0.1, 'gamma': 0.5, 'kernel': 'rbf'}. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:23:38		AUC for SVM:0.5
+2020-06-12/20:23:38		Entered the save_model method of the File_Operation class
+2020-06-12/20:23:38		Model File RandomForest3 saved. Exited the save_model method of the Model_Finder class
+2020-06-12/20:23:38		Entered the get_best_model method of the Model_Finder class
+2020-06-12/20:23:38		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:23:47		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 130}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2020-06-12/20:23:47		AUC for RF:0.49954707339437615
+2020-06-12/20:23:47		Entered the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:24:27		SVM best params: {'C': 0.1, 'gamma': 1, 'kernel': 'rbf'}. Exited the get_best_params_for_svm method of the Model_Finder class
+2020-06-12/20:24:28		AUC for SVM:0.5
+2020-06-12/20:24:28		Entered the save_model method of the File_Operation class
+2020-06-12/20:24:28		Model File SVM2 saved. Exited the save_model method of the Model_Finder class
+2020-06-12/20:24:28		Successful End of Training
